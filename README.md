@@ -6,15 +6,15 @@
 Travaux d'été 2017. 
 Algorithmique mathématiques basées sur les ouvrages de José OUIN
 
-- Algorithmique mathématiques - Travaux pratiques et applications en Scilab 
+- Algorithmique mathématiques - Travaux pratiques et applications en Scilab par José OUIN
 - ...
 - ...
 - ...
 -----------------
 ### Commande de compilation 
 Pour compiler sous MAC : 
-    - ⌘ + S
-    - ⌘ + ⇧ + E
+- ⌘ + S
+- ⌘ + ⇧ + E
 
 -----------------
 ### Structure du dossier 
@@ -30,8 +30,17 @@ Pour compiler sous MAC :
     - Exo_7 : Effectuer des opérations avec les vecteurs : Somme de deux vecteurs
     - Exo_8 : Créer des fonctions personnalisées : f(x)=x^2+5 dans l'éditeur
     - Exo_9 : Créer des fonctions personnalisées : f(x)=x^2+5 dans la console
-
-
+    - Exo_10 : Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur une variable)
+    - Exo_11 : Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur deux variable avec ou (|))
+    - Exo_12 : Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur deux variable avec et (&))
+    - Exo_13 : Utiliser les structures et les tests : Nombre d'itérations entre deux nombres avec une Tant que '
+    - Exo_14 : Effectuer une simulation : Nombre aléatoire entre 1 et 6
+    - Exo_15 : Effectuer une simulation : Nombre aléatoire entre 1 et 6 et on continu tant que l'on a pas obtenu un nombre supérieur à 4'
+    - Exo_16 : Effectuer une simulation : Générer un vecteur de 5 nombres aléatoires compris entre 1 et 6 
+    - Exo_17 : Effectuer une simulation : Simulation d'un lancé de pièce equilibrée 
+    - Exo_18 : Représenter le graphe d'une fonction : Tracé de f(x) = x^2 - 7*x - 2 sur l'intervalle [-10,10]
+    - Exo_19 : Représenter le graphe d'une fonction : Tracé de f(x,y) = (x^3 - 2*y^2)/(x^2+1) - NON FONCTIONNEL
+    
     
 
 
@@ -39,7 +48,7 @@ Pour compiler sous MAC :
 - FREQ : Fonctions et résolution d'équations
 - PROB : Probabilités 
 - SUIN : Suites numériques
-- ARIT : Arithmétiquev
+- ARIT : Arithmétique
 - GEOM : Géométrie
 
 
