@@ -1,5 +1,5 @@
 // Résolution d'une équation du second degré : 
-
+printf("%s\n"," ## Résolution d''une équation du second degré :")
 // Saisie des coefficients dans un vecteur c :
 c = input("Saisir les coefficients a,b et c tel que ax^2 + bx + c = 0");
 // La saisie doit se faire sous forme [a,b,c]
