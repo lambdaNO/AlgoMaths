@@ -40,21 +40,16 @@ Pour compiler sous MAC :
     - Effectuer une simulation : Simulation d'un lancé de pièce equilibrée
     - Représenter le graphe d'une fonction : Tracé de f(x) = x^2 - 7*x - 2 sur l'intervalle [-10,10]
     - Représenter le graphe d'une fonction : Tracé de f(x,y) = (x^3 - 2*y^2)/(x^2+1) *NON FONCTIONNEL*
-
-
-
-
-    - ...
 -----------------
-
 - **Chapitre_1** : Fonctions et résolution d'équations
     1. Résolution d'une équation du second degré.
     - Résolution d'une équation f(x) = 0 par la méthode de dichotomie.
 - **Chapitre_2**  : Probabilités
 - **Chapitre_3** : Suites numériques
+    1. Evolution d'une population de lapins
 - **Chapitre_4**  : Arithmétique
+    1. Algorithme d'Euclide : Détermination du PGCD
 - **Chapitre_5**  : Géométrie
-
 
 -----------------
 
