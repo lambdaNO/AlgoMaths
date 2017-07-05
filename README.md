@@ -26,26 +26,28 @@ Pour compiler sous MAC :
     2. Saisir et afficher des données : a^2
     3. Saisir et afficher des données : quotient de a/b
     4. Saisir et afficher des données : r = a/(a+b)^2 et affichage multiple
-    4. Saisir et afficher des données : r = a/(a+b)^2 et affichage multiple V2
-    5. Effectuer des opérations avec les vecteurs : Norme d'un vecteur
-    6. Effectuer des opérations avec les vecteurs : Somme de deux vecteurs
-    7. Créer des fonctions personnalisées : f(x)=x^2+5 dans l'éditeur
-    8. Créer des fonctions personnalisées : f(x)=x^2+5 dans la console
-    9. Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur une variable)
-    10. Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur deux variables avec ou (|))
-    11. Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur deux variables avec et (&))
-    12. Utiliser les structures et les tests : Nombre d'itérations entre deux nombres avec une Tant que
-    13. Effectuer une simulation : Nombre aléatoire entre 1 et 6
-    14. Effectuer une simulation : Nombre aléatoire entre 1 et 6 et on continu tant que l'on a pas obtenu un nombre supérieur à 4
-    15. Effectuer une simulation : Générer un vecteur de 5 nombres aléatoires compris entre 1 et 6
-    16. Effectuer une simulation : Simulation d'un lancé de pièce equilibrée
-    17. Représenter le graphe d'une fonction : Tracé de f(x) = x^2 - 7*x - 2 sur l'intervalle [-10,10]
-    18. Représenter le graphe d'une fonction : Tracé de f(x,y) = (x^3 - 2*y^2)/(x^2+1) *NON FONCTIONNEL*
+    5. Saisir et afficher des données : r = a/(a+b)^2 et affichage multiple V2
+    6. Effectuer des opérations avec les vecteurs : Norme d'un vecteur
+    7. Effectuer des opérations avec les vecteurs : Somme de deux vecteurs
+    8. Créer des fonctions personnalisées : f(x)=x^2+5 dans l'éditeur
+    9. Créer des fonctions personnalisées : f(x)=x^2+5 dans la console
+    10. Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur une variable)
+    11. Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur deux variables avec ou (|))
+    12. Utiliser les structures et les tests : "Salut !" ou "Bonjour !" (1 condition sur deux variables avec et (&))
+    13. Utiliser les structures et les tests : Nombre d'itérations entre deux nombres avec une Tant que
+    14. Effectuer une simulation : Nombre aléatoire entre 1 et 6
+    15. Effectuer une simulation : Nombre aléatoire entre 1 et 6 et on continu tant que l'on a pas obtenu u nombre supérieur à 4
+    16. Effectuer une simulation : Générer un vecteur de 5 nombres aléatoires compris entre 1 et 6
+    17. Effectuer une simulation : Simulation d'un lancé de pièce equilibrée
+    18. Représenter le graphe d'une fonction : Tracé de f(x) = x^2 - 7*x - 2 sur l'intervalle [-10,10]
+    19. Représenter le graphe d'une fonction : Tracé de f(x,y) = (x^3 - 2*y^2)/(x^2+1) *NON FONCTIONNEL*
 -----------------
 - **Chapitre_1** : Fonctions et résolution d'équations
     1. Résolution d'une équation du second degré.
     2. Résolution d'une équation f(x) = 0 par la méthode de dichotomie.
     3. Représentation graphique d'une fonction
+    4. Etude d'une courbe
+    5. Détermination d'une équation de droite 
 - **Chapitre_2**  : Probabilités
 - **Chapitre_3** : Suites numériques
     1. Evolution d'une population de lapins
