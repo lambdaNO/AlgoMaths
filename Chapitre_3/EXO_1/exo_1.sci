@@ -24,3 +24,9 @@ else
     end
     printf("%s%i%s%0.0f\n","Le nombre de couples de lapins au mois n° ",n," est égal à ", pn)
 end
+
+clear i
+clear n
+clear p1
+clear p2
+clear pn

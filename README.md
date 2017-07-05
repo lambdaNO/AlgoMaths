@@ -49,6 +49,10 @@ Pour compiler sous MAC :
 - **Chapitre_3** : Suites numériques
     1. Evolution d'une population de lapins
     2. Suite de Syracuse
+    3. Suites définies conjointement
+    4. Suite définie par une relation de récurrence
+    5. Suite définie par une moyenne arithmétique
+    6. Somme des termes d'une suite
 - **Chapitre_4**  : Arithmétique
     1. Algorithme d'Euclide : Détermination du PGCD
 - **Chapitre_5**  : Géométrie

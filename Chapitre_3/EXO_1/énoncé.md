@@ -1,4 +1,4 @@
-# Evolution d'une population de lapin.
+# Evolution d'une population de lapins.
 Possedant initialement un couple de lapereaux, combien de couples obtient-on au bout de $n$ mois si chaque couple engendre tous les mois un nouveau couple à compter du troisième mois d'existence ?
 
 Il s'agit d'une application de la suite de Fibonacci (Léonardo). Ce dernier décrit dans l'un de ses ouvrages, la croissance d'une population de lapin.

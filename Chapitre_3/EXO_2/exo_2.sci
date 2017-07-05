@@ -1,5 +1,5 @@
-// # La suite de Syracuse
-printf("## La suite de Syracuse")
+// ## La suite de Syracuse
+printf("%s\n","## La suite de Syracuse")
 d = input("Saisir l''entier de départ d = ");
 n = input("Saisir le nombre de termes de la suite à affichier n = ");
 
@@ -26,3 +26,8 @@ disp(t)
 //(14,30) : 14.   7.   22.   11.   34.   17.   52.   26.   13.   40.   20.   10.   5.   16.   8.   4.   2.   1.   4.   2.   1.   4.    2.   1.   4.   2.   1.   4.   2.   1.
 //(14,45) :  14.   7.   22.   11.   34.   17.   52.   26.   13.   40.   20.   10.   5.   16.   8.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.   1.
 //(36,30) : 36.   18.   9.   28.   14.   7.   22.   11.   34.   17.   52.   26.   13.   40.   20.   10.   5.   16.   8.   4.   2.   1.   4.   2.   1.   4.   2.   1.   4.   2.
+
+clear d
+clear i
+clear n
+clear t
