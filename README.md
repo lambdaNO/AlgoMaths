@@ -45,6 +45,7 @@ Pour compiler sous MAC :
 - **Chapitre_1** : Fonctions et résolution d'équations
     1. Résolution d'une équation du second degré.
     2. Résolution d'une équation f(x) = 0 par la méthode de dichotomie.
+    3. Représentation graphique d'une fonction
 - **Chapitre_2**  : Probabilités
 - **Chapitre_3** : Suites numériques
     1. Evolution d'une population de lapins

@@ -20,3 +20,10 @@ for (i = 1:n)
     printf("%s%i%s%0.5f\n", "V(",i,")^2 = ",V2(i))
     printf("%s%i%s%i%s%0.5f\n", "Ecart = S(",i,") - V(",i,")^2 = ",Ec(i))
 end
+
+clear Ec
+clear S
+clear V
+clear V2
+clear i
+clear n
