@@ -47,8 +47,10 @@ Pour compiler sous MAC :
     2. Résolution d'une équation f(x) = 0 par la méthode de dichotomie.
     3. Représentation graphique d'une fonction
     4. Etude d'une courbe
-    5. Détermination d'une équation de droite 
+    5. Détermination d'une équation de droite
 - **Chapitre_2**  : Probabilités
+    1. Le jeu du lièvre et de la tortue
+    2. Simulation de lancers de 3 dés
 - **Chapitre_3** : Suites numériques
     1. Evolution d'une population de lapins
     2. Suite de Syracuse
@@ -58,6 +60,9 @@ Pour compiler sous MAC :
     6. Somme des termes d'une suite
 - **Chapitre_4**  : Arithmétique
     1. Algorithme d'Euclide : Détermination du PGCD
+    2. Restes de la division Euclidienne par $p$
+    3. Etude du reste d'une division Euclidienne
+    4. Nombres premiers - Critère de primalité **A revoir**
 - **Chapitre_5**  : Géométrie
     1. Etude d'un triangle.
     2. Etude d''un parallélogramme
