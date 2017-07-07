@@ -51,6 +51,8 @@ Pour compiler sous MAC :
 - **Chapitre_2**  : Probabilités
     1. Le jeu du lièvre et de la tortue
     2. Simulation de lancers de 3 dés
+    3. Le jeu des triangles
+    4. La planche de Galton
 - **Chapitre_3** : Suites numériques
     1. Evolution d'une population de lapins
     2. Suite de Syracuse
