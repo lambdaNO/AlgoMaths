@@ -53,6 +53,8 @@ Pour compiler sous MAC :
     2. Simulation de lancers de 3 dés
     3. Le jeu des triangles
     4. La planche de Galton
+    5. La désintégratlon radioactive
+    6. Recherche d'une stratégie de jeu.
 - **Chapitre_3** : Suites numériques
     1. Evolution d'une population de lapins
     2. Suite de Syracuse
@@ -65,10 +67,15 @@ Pour compiler sous MAC :
     2. Restes de la division Euclidienne par $p$
     3. Etude du reste d'une division Euclidienne
     4. Nombres premiers - Critère de primalité **A revoir**
+    5. Ensemble des diviseurs positifs d'un entier naturel
+    6. Nombre à moyenne harmonique entière
 - **Chapitre_5**  : Géométrie
     1. Etude d'un triangle.
-    2. Etude d''un parallélogramme
-    3. Etude d'un alignement de points
+    2. Etude d''un parallélogramme.
+    3. Etude d'un alignement de points.
+    4. Représentation graphique d'une surface de l'espace. *NON FONCTIONNEL*
+    5. Section plane de surface. *NON FONCTIONNEL*
+
 
 -----------------
 

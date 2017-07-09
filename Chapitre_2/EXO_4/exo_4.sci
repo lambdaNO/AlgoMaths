@@ -1,5 +1,5 @@
 // # La planche de Galton
-printf("Simulation de planche de Galton")
+printf("## Simulation de planche de Galton")
 
 //-------------------------------------------------------
 
