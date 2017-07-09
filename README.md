@@ -69,6 +69,7 @@ Pour compiler sous MAC :
     4. Nombres premiers - Critère de primalité **A revoir**
     5. Ensemble des diviseurs positifs d'un entier naturel
     6. Nombre à moyenne harmonique entière
+    7. Cryptographie symétrique ou à clé secrète
 - **Chapitre_5**  : Géométrie
     1. Etude d'un triangle.
     2. Etude d''un parallélogramme.
