@@ -86,3 +86,6 @@ Note : https://perso.univ-rennes1.fr/philippe.roux/scilab/graphiques/fiche_graph
 Test avec du LATEX
 
 $$\frac{1}{2}$$
+
+http://mathurl.com/render.cgi?E%20%3D%20mc%20%5E%202%5Cnocache
+
