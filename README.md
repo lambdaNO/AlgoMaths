@@ -7,9 +7,9 @@ Travaux d'été 2017.
 Algorithmique mathématiques basée sur les ouvrages de José OUIN
 
 - Algorithmique mathématiques - Travaux pratiques et applications en Scilab par José OUIN
+- Algorithmique calcul numérique - Travaux pratiques résolus et programmation avec les logiciels Python en Scilab par José OUIN
 - ...
-- ...
-- ...
+
 -----------------
 ### Commande de compilation
 Pour compiler sous MAC :
@@ -19,9 +19,13 @@ Pour compiler sous MAC :
 
 -----------------
 ### Structure du dossier
-- Introduction : Contient les principales fonctions présentées dans l'ouvrage ainsi que les bases de l'algorithmique en SCILAB
-- Documentation : Contient des PDF récupérés sur le site de SCILAB
-- Exo_intro : Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des fonctions vues dans la partie introduction)
+#### Introduction :
+Contient les principales fonctions présentées dans l'ouvrage ainsi que les bases de l'algorithmique en SCILAB
+#### Documentation :
+Contient des PDF récupérés sur le site de SCILAB
+#### Exo_intro :
+Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des fonctions vues dans la partie introduction)
+
     1. Opération dans la console et dans l'éditeur
     2. Saisir et afficher des données : a^2
     3. Saisir et afficher des données : quotient de a/b
@@ -42,27 +46,28 @@ Pour compiler sous MAC :
     18. Représenter le graphe d'une fonction : Tracé de f(x) = x^2 - 7*x - 2 sur l'intervalle [-10,10]
     19. Représenter le graphe d'une fonction : Tracé de f(x,y) = (x^3 - 2*y^2)/(x^2+1) *NON FONCTIONNEL*
 -----------------
-- **Chapitre_1** : Fonctions et résolution d'équations
+## A - Algorithmique mathématiques
+#### Chapitre_1 : Fonctions et résolution d'équations
     1. Résolution d'une équation du second degré.
     2. Résolution d'une équation f(x) = 0 par la méthode de dichotomie.
     3. Représentation graphique d'une fonction
     4. Etude d'une courbe
     5. Détermination d'une équation de droite
-- **Chapitre_2**  : Probabilités
+#### Chapitre_2  : Probabilités
     1. Le jeu du lièvre et de la tortue
     2. Simulation de lancers de 3 dés
     3. Le jeu des triangles
     4. La planche de Galton
     5. La désintégratlon radioactive
     6. Recherche d'une stratégie de jeu.
-- **Chapitre_3** : Suites numériques
+#### Chapitre_3 : Suites numériques
     1. Evolution d'une population de lapins
     2. Suite de Syracuse
     3. Suites définies conjointement
     4. Suite définie par une relation de récurrence
     5. Suite définie par une moyenne arithmétique
     6. Somme des termes d'une suite
-- **Chapitre_4**  : Arithmétique
+#### Chapitre_4  : Arithmétique
     1. Algorithme d'Euclide : Détermination du PGCD
     2. Restes de la division Euclidienne par $p$
     3. Etude du reste d'une division Euclidienne
@@ -70,7 +75,7 @@ Pour compiler sous MAC :
     5. Ensemble des diviseurs positifs d'un entier naturel
     6. Nombre à moyenne harmonique entière
     7. Cryptographie symétrique ou à clé secrète
-- **Chapitre_5**  : Géométrie
+#### Chapitre_5  : Géométrie
     1. Etude d'un triangle.
     2. Etude d''un parallélogramme.
     3. Etude d'un alignement de points.
@@ -78,15 +83,8 @@ Pour compiler sous MAC :
     5. Section plane de surface. *NON FONCTIONNEL*
 
 
+## B - Algorithmique calcul numérique
+
 -----------------
 
 Note : https://perso.univ-rennes1.fr/philippe.roux/scilab/graphiques/fiche_graphiques.html#x1-60002
-
-
-Test avec du LATEX
-
-$$\frac{1}{2}$$
-
-http://mathurl.com/render.cgi?E%20%3D%20mc%20%5E%202%5Cnocache
-
-[f1]: http://chart.apis.google.com/chart?cht=tx&chl=m=\\frac{m_0}{‌​\\sqrt{1-{\\frac{v^2‌​}{c^2}}}}
