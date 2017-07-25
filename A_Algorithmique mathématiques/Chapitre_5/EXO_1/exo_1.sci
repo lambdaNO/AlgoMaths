@@ -5,7 +5,7 @@ A = input("Saisir les coordonnées du point A : [xA,yA]");
 B = input("Saisir les coordonnées du point B : [xB,yB]");
 C = input("Saisir les coordonnées du point C : [xC,yC]");
 
-// On va maintenant calculer les distances entre les points avec la norme 2 sqrt(sum( (a_i)^2 ). 
+// On va maintenant calculer les distances entre les points avec la norme 2 sqrt(sum( (a_i)^2 ).
 // Attention, on fait des opérations sur des matrices et non des points seuls. On doit donc faire attention à l'écriture.
 
 d1 = sum((A-B).^2);
@@ -23,7 +23,7 @@ elseif (d2 == d1 + d3) then
     printf("%s\n", "Le triangle ABC est rectangle en B.")
 elseif (d3 == d1 + d2) then
     printf("%s\n", "Le triangle ABC est rectangle en A.")
-else 
+else
     printf("%s\n", "Le triangle ABC est quelconque.")
 end;
 // Maintenant on va effectuer la représentation graphique.
@@ -42,4 +42,3 @@ y = [A(2),B(2),C(2),A(2)];
 //disp(y)
 // Et on plot
 plot(x,y)
-

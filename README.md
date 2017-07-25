@@ -48,42 +48,58 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 -----------------
 ## A - Algorithmique mathématiques
 #### Chapitre_1 : Fonctions et résolution d'équations
-    1. Résolution d'une équation du second degré.
-    2. Résolution d'une équation f(x) = 0 par la méthode de dichotomie.
-    3. Représentation graphique d'une fonction
-    4. Etude d'une courbe
-    5. Détermination d'une équation de droite
+1. Résolution d'une équation du second degré.
+2. Résolution d'une équation f(x) = 0 par la méthode de dichotomie.
+3. Représentation graphique d'une fonction.
+4. Etude d'une courbe.
+5. Détermination d'une équation de droite.
 #### Chapitre_2  : Probabilités
-    1. Le jeu du lièvre et de la tortue
-    2. Simulation de lancers de 3 dés
-    3. Le jeu des triangles
-    4. La planche de Galton
-    5. La désintégratlon radioactive
-    6. Recherche d'une stratégie de jeu.
+1. Le jeu du lièvre et de la tortue.
+2. Simulation de lancers de 3 dés.
+3. Le jeu des triangles.
+4. La planche de Galton.
+5. La désintégratlon radioactive.
+6. Recherche d'une stratégie de jeu.
 #### Chapitre_3 : Suites numériques
-    1. Evolution d'une population de lapins
-    2. Suite de Syracuse
-    3. Suites définies conjointement
-    4. Suite définie par une relation de récurrence
-    5. Suite définie par une moyenne arithmétique
-    6. Somme des termes d'une suite
+1. Evolution d'une population de lapins.
+2. Suite de Syracuse.
+3. Suites définies conjointement.
+4. Suite définie par une relation de récurrence.
+5. Suite définie par une moyenne arithmétique.
+6. Somme des termes d'une suite.
 #### Chapitre_4  : Arithmétique
-    1. Algorithme d'Euclide : Détermination du PGCD
-    2. Restes de la division Euclidienne par $p$
-    3. Etude du reste d'une division Euclidienne
-    4. Nombres premiers - Critère de primalité **A revoir**
-    5. Ensemble des diviseurs positifs d'un entier naturel
-    6. Nombre à moyenne harmonique entière
-    7. Cryptographie symétrique ou à clé secrète
+1. Algorithme d'Euclide : Détermination du PGCD.
+2. Restes de la division Euclidienne par $p$.
+3. Etude du reste d'une division Euclidienne.
+4. Nombres premiers - Critère de primalité **A revoir**.
+5. Ensemble des diviseurs positifs d'un entier naturel.
+6. Nombre à moyenne harmonique entière.
+7. Cryptographie symétrique ou à clé secrète.
 #### Chapitre_5  : Géométrie
-    1. Etude d'un triangle.
-    2. Etude d''un parallélogramme.
-    3. Etude d'un alignement de points.
-    4. Représentation graphique d'une surface de l'espace. *NON FONCTIONNEL*
-    5. Section plane de surface. *NON FONCTIONNEL*
+1. Etude d'un triangle.
+2. Etude d''un parallélogramme.
+3. Etude d'un alignement de points.
+4. Représentation graphique d'une surface de l'espace. *NON FONCTIONNEL*
+5. Section plane de surface. *NON FONCTIONNEL*
 
 
 ## B - Algorithmique calcul numérique
+#### Chapitre_1 : Algorithmique et arithmétique.
+
+
+#### Chapitre_2 : Approximation de solutions d'équations et suites numériques.
+
+
+#### Chapitre_3 : Résolutions numérique d'équations différentielles.
+
+
+#### Chapitre_4 : Calcul matriciel et calcul intégral.
+1. Méthode d'élimination de Gauss
+
+
+
+
+
 
 -----------------
 
