@@ -1,4 +1,4 @@
-// Etude d'un triangle
+// Méthode d''élimination de Gauss
 printf("%s\n","## Méthode d''élimination de Gauss")
 
 // Saisie des dimensions de la matrice A à étudier. Ce sont des matrices carrées donc une seule valeur suffit.
