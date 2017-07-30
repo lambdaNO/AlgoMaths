@@ -85,18 +85,32 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 
 ## B - Algorithmique calcul numérique
 #### Chapitre_1 : Algorithmique et arithmétique.
-
-
+1.  
+2.  
+3.  Cryptographie - Le carré de Polybe *NON FONCTIONNEL*
+4.  
+5.  
 #### Chapitre_2 : Approximation de solutions d'équations et suites numériques.
-
-
+1.  
+2.  
+3.  
+4.  
+5.  
+6.  
 #### Chapitre_3 : Résolutions numérique d'équations différentielles.
-
-
+1.  
+2.  
+3.  
+4.  
+5.  
 #### Chapitre_4 : Calcul matriciel et calcul intégral.
 1. Méthode d'élimination de Gauss
-
-
+2.  
+3.  
+4.  
+5.  
+6.  
+7. Approximation d'une intégrale par la méthode des trapèzes
 
 
 
