@@ -88,8 +88,8 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 1.  
 2.  
 3.  Cryptographie - Le carré de Polybe *NON FONCTIONNEL*
-4.  
-5.  
+4.  Couples d'entiers amicaux
+5.  Conjecture d'Erdös-Straus
 #### Chapitre_2 : Approximation de solutions d'équations et suites numériques.
 1.  
 2.  
@@ -105,8 +105,8 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 5.  
 #### Chapitre_4 : Calcul matriciel et calcul intégral.
 1. Méthode d'élimination de Gauss
-2.  
-3.  
+2. Résolution d'un système U.X = B
+3. Résolution d'un système L.X = B
 4.  
 5.  
 6.  
