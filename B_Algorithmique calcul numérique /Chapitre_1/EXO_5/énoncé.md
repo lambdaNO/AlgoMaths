@@ -20,66 +20,66 @@ Nmaxi  ← 25
 
 #### Traitement
 n  ← 2
-<!-- -->
+<br>
 **Tant que** (n<= Nmax) **Faire**
-<!-- -->
+<br>
 a ← 4/n
-<!-- -->
+<br>
 test ← %f
-<!-- -->
+<br>
 x ← 1
-<!-- -->
+<br>
 **Tant que** (test == %f & x <= n^2) **Faire**
-<!-- -->
+<br>
 b ← a - 1/x
-<!-- -->
+<br>
 y ← 1
-<!-- -->
+<br>
 **Tant que** (test == %f & y <= n^2) **Faire**
-<!-- -->
+<br>
 c ← b - 1/y
-<!-- -->
+<br>
 z ← 1
-<!-- -->
+<br>
 **Tant que** (test == %f & z <= n^2) **Faire**
-<!-- -->
+<br>
 **Si** (c== 1/z) **Alors**
-<!-- -->
+<br>
 t ← %t
-<!-- -->
+<br>
 **Sinon**
-<!-- -->
+<br>
 z  ← z + 1
-<!-- -->
+<br>
 **Fin si**
-<!-- -->
+<br>
 **Fin tant que**
-<!-- -->
+<br>
 **Si** (test == %f) **Alors**
-<!-- -->
+<br>
 y ← y + 1
-<!-- -->
+<br>
 **Fin si**
-<!-- -->
+<br>
 **Fin tant que**
-<!-- -->
+<br>
 **Si** (test == %f) **Alors**
-<!-- -->
+<br>
 x ← x + 1
-<!-- -->
+<br>
 **Fin si**
-<!-- -->
+<br>
 **Fin tant que**
-<!-- -->
+<br>
 **Si** (test == %t) **Alors**
-<!-- -->
+<br>
 **Afficher** : n,x,y,z
-<!-- -->
+<br>
 n ← + 1
-<!-- -->
+<br>
 **Fin si**
-<!-- -->
+<br>
 **Fin tant que**
-<!-- -->
+<br>
 #### Sortie
 **Afficher** : n,x,y,z

@@ -56,65 +56,65 @@ Le texte à crypter ou décrypter
 ##### Fonction de cryptage
 
 **fonction** c = cryptage( t )
-<!-- -->
+<br>
 tableau ← ['A' 'B' 'C' 'D' 'E';
           'F' 'G' 'H' 'I' 'J';
           'K' 'L' 'M' 'N' 'O';
           'P' 'Q' 'R' 'S' 'T';
           'U' 'V' 'X' 'Y' 'Z']
-<!-- -->
+<br>
 c ← ""
-<!-- -->
+<br>
 k ← 1
-<!-- -->
+<br>
 **Tant que** k <= length(t) **Faire**
-<!-- -->
+<br>
 L ← part(t,k) // lettre n° K
-<!-- -->
+<br>
 **Pour** i **de** 1 **jusqu'à** 5 **Faire**
-<!-- -->
+<br>
 **Pour** j **de** 1 **jusqu'à** 5 **Faire**
-<!-- -->
+<br>
 **Si** L == tableau(i,j) **Alors**
-<!-- -->
+<br>
 c ← c + string(i) + string(j) + " "
-<!-- -->
+<br>
 **Fin si**
-<!-- -->
+<br>
 **Fin pour**
-<!-- -->
+<br>
 **Fin pour**
 k ← k + 1
-<!-- -->
-<!-- -->
+<br>
+<br>
 **Fin tant que**
-<!-- -->
+<br>
 **Fin fonction**
 
 #### Fonction de décryptage
 
 **fonction** t = décryptage( c )
-<!-- -->
+<br>
 tableau ← ['A' 'B' 'C' 'D' 'E';
           'F' 'G' 'H' 'I' 'J';
           'K' 'L' 'M' 'N' 'O';
           'P' 'Q' 'R' 'S' 'T';
           'U' 'V' 'X' 'Y' 'Z']
-<!-- -->
+<br>
 t ← ""
-<!-- -->
+<br>
 i ← 1
-<!-- -->
+<br>
 **Tant que** i <= length( c ) **Faire**
-<!-- -->
+<br>
 x ← evstr(part(c,i)) // premier chiffre
-<!-- -->
+<br>
 y ← evstr(part(c,i+1)) // second chiffre
-<!-- -->
+<br>
 i ← i + 3
-<!-- -->
+<br>
 t ← t + tableau(x,y)
-<!-- -->
+<br>
 **Fin tant que**
 **Fin fonction**
 ##### Sortie

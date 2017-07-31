@@ -70,13 +70,13 @@ $$ f(x) = \sum_{j=i+1}^{n}l_{i,j}x_{j}$$
 Saisir les matrices $L$,$B$ et la taille $N$
 ##### Traitement
 **Définition** de la fonction $f$ *(appelée somme())*
-<!-- -->
+<br>
 X(1,1) ← B(1,1)/L(1,1);
-<!-- -->
+<br>
 **Pour** i **de** 2 **jusqu'à** N **Faire**
-<!-- -->
+<br>
 X(i,1) ← (1/L(i,i)) * (B(i,1) - somme(i));
-<!-- -->
+<br>
 **Fin pour**
 ##### Sortie
 Afficher la matrice X.

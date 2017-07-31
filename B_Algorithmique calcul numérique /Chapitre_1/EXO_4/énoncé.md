@@ -32,35 +32,35 @@ Saisir les valeurs des entiers $n$ et $m$
 
 #### Traitement
 s1 ← 0
-<!-- -->
+<br>
 **Pour** k **de** 1 **jusqu'à** (n-1) **Faire**
-<!-- -->
+<br>
 **Si** modulo(n,k)==0 **Alors**
-<!-- -->
+<br>
 s1 ← s1 + k
-<!-- -->
+<br>
 **Fin si**
-<!-- -->
+<br>
 **Fin pour**
 
 s2 ← 0
-<!-- -->
+<br>
 **Pour** p **de** 1 **jusqu'à** (m-1) **Faire**
-<!-- -->
+<br>
 **Si** modulo(m,p)==0 **Alors**
-<!-- -->
+<br>
 s2 ← s2 + p
-<!-- -->
+<br>
 **Fin si**
-<!-- -->
+<br>
 **Fin pour**
 ##### Sortie
 **Si** (s1 == m && s2 == n) **Alors**
-<!-- -->
+<br>
 **Afficher** : $m$ et $n$ sont des entiers amicaux
-<!-- -->
+<br>
 **Sinon**
-<!-- -->
+<br>
 **Afficher** : $m$ et $n$ sont des entiers amicaux
-<!-- -->
+<br>
 **Fin si**

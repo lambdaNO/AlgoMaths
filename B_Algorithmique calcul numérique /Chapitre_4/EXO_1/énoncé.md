@@ -69,7 +69,7 @@ $$
 Saisir les matrices $A$ et $B$
 ##### Traitement
 AT ← A;
-<!-- -->
+<br>
 BT ← B;
 
 **Pour** k **de** 1 **jusqu'à** (N-1) **Faire**
@@ -85,7 +85,7 @@ AT(i,k) ← 0
 **Pour** j **de** (k+1) **jusqu'à** N **Faire**
 
 AT(i,j) ← AT(i,j) - q*AT(k,j)
-<!-- -->
+<br>
 **Fin pour**
 
 **Fin pour**

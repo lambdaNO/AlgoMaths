@@ -50,7 +50,7 @@ Saisir a, b et N
 Définir la fonction f
 
 h ← (b-a)/N;
-<!-- -->
+<br>
 s ← 0;
 
 **Pour** i **de** 1 **jusqu'à** (N-1) **Faire**

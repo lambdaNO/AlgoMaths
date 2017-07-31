@@ -70,13 +70,13 @@ $$ f(x) = \sum_{j=i+1}^{n}u_{i,j}x_{j}$$
 Saisir les matrices $U$,$B$ et la taille $N$
 ##### Traitement
 **Définition** de la fonction $f$ *(appelée somme())*
-<!-- -->
+<br>
 X(1,N) ← B(N,1)/U(N,N);
-<!-- -->
+<br>
 **Pour** i **de** (N-1) **jusqu'à** 1 **par pas de** -1 **Faire**
-<!-- -->
+<br>
 X(i,1) ← (1/U(i,i)) * (B(i,1) - somme(i));
-<!-- -->
+<br>
 **Fin pour**
 ##### Sortie
 Afficher la matrice X.
