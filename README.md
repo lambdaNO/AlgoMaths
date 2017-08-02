@@ -91,12 +91,12 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 4.  Couples d'entiers amicaux
 5.  Conjecture d'Erdös-Straus
 #### Chapitre_2 : Approximation de solutions d'équations et suites numériques.
-1.  
+1.  Ensembles de Mandelbrot et de Julia
 2.  Méthode de dichotomie
 3.  Méthode de Newton
 4.  Approximation d'une racine carré - Méthode de Héron
 5.  Détermination de la constante d'Euler-Mascheroni
-6.  
+6.  Point fixe et suite définie par récurrence
 #### Chapitre_3 : Résolutions numérique d'équations différentielles.
 1.  
 2.  
