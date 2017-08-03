@@ -107,7 +107,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 1. Méthode d'élimination de Gauss
 2. Résolution d'un système U.X = B
 3. Résolution d'un système L.X = B
-4.  
+4. Résolution d'un système par la méthode d'élimination de Gauss
 5.  
 6.  
 7. Approximation d'une intégrale par la méthode des trapèzes
