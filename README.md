@@ -86,7 +86,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 ## B - Algorithmique calcul numérique
 #### Chapitre_1 : Algorithmique et arithmétique.
 1.  
-2.  
+2.  Tri par sélection et tri à bulles
 3.  Cryptographie - Le carré de Polybe *NON FONCTIONNEL*
 4.  Couples d'entiers amicaux
 5.  Conjecture d'Erdös-Straus
@@ -98,8 +98,8 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 5.  Détermination de la constante d'Euler-Mascheroni
 6.  Point fixe et suite définie par récurrence
 #### Chapitre_3 : Résolutions numérique d'équations différentielles.
-1.  
-2.  
+1.  Approximation de la fonction exponentielle par la méthode d'Euler
+2.  Etude d'un circuit RC
 3.  
 4.  
 5.  
@@ -108,7 +108,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 2. Résolution d'un système U.X = B
 3. Résolution d'un système L.X = B
 4. Résolution d'un système par la méthode d'élimination de Gauss
-5.  
+5. Méthode de décomposition LU - Algorithme de DOOLITTLE
 6.  
 7. Approximation d'une intégrale par la méthode des trapèzes
 
