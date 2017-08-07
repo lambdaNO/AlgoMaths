@@ -100,7 +100,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 #### Chapitre_3 : Résolutions numérique d'équations différentielles.
 1.  Approximation de la fonction exponentielle par la méthode d'Euler
 2.  Etude d'un circuit RC
-3.  
+3.  Etude de la chute libre d'un parachutiste
 4.  
 5.  
 #### Chapitre_4 : Calcul matriciel et calcul intégral.

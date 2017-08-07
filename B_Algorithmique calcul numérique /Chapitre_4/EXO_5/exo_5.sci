@@ -41,8 +41,7 @@ disp(U);
 disp("Matrice L * U");
 disp(L*U)
 if (A == (L*U)) then
-    printf("On a bien A = L x U")
+    printf("%s\n""On a bien A = L x U")
 else 
-    printf("C''est pas encore ça, regarde les indices de tes sommes")
-end
-
+    printf("%s\n""C''est pas encore ça, regarde les indices de tes sommes")
+end                                                      
