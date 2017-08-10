@@ -6,7 +6,7 @@ Les formules de récurrences nécessaires sont données dans la partie relative 
 <!-- \newline-->
 On utilise les notations suivantes :
 
-$$A = \begin{pmatrix}
+$$L = \begin{pmatrix}
 l_{11} & 0 & \dots & 0 & \dots & 0  \\
 l_{21} & l_{22} & \dots & 0 & \dots & 0  \\
 \dots & \dots & \dots & \dots & \dots & \dots  \\

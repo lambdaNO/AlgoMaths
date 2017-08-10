@@ -6,8 +6,8 @@ funcprot(0);
 function z = somme(p,i,j)
     z = 0;
     for (k =1:(p-1))
-       z = z + L(i,k)*U(k,j); 
-    end 
+       z = z + L(i,k)*U(k,j);
+    end
 endfunction
 // -------------------------------------------------------------------
 N = input("Saisir la dimension de la matrice carré sup A : N = ");
@@ -42,6 +42,6 @@ disp("Matrice L * U");
 disp(L*U)
 if (A == (L*U)) then
     printf("%s\n""On a bien A = L x U")
-else 
+else
     printf("%s\n""C''est pas encore ça, regarde les indices de tes sommes")
-end                                                      
+end

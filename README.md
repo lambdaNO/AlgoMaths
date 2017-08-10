@@ -109,7 +109,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 3. Résolution d'un système L.X = B
 4. Résolution d'un système par la méthode d'élimination de Gauss
 5. Méthode de décomposition LU - Algorithme de DOOLITTLE
-6.  
+6.  Résolution d'un système AX = B par décomposition LU **(Erreur quelque part)**
 7. Approximation d'une intégrale par la méthode des trapèzes
 
 

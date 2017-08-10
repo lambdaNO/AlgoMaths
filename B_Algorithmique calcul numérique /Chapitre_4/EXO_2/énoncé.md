@@ -6,7 +6,7 @@ Les formules de récurrences nécessaires sont données dans la partie relative 
 <!-- \newline-->
 On utilise les notations suivantes :
 
-$$A = \begin{pmatrix}
+$$U = \begin{pmatrix}
 u_{11} & u_{12} & \dots & u_{1j} & \dots & u_{1n}  \\
 0 & u_{22} & \dots & u_{2j} & \dots & u_{2n}  \\
 \dots & \dots & \dots & \dots & \dots & \dots  \\
