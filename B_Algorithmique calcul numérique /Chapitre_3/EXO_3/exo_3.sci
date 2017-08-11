@@ -12,7 +12,7 @@ function zu = fu(x)
 endfunction
 // Avec zvO, la valeur de la constante V0
 // -------------------------------------------------------------------
-// Constantes : 
+// Constantes :
 g = 9.81;
 ksm = 1/28;
 zvO = sqrt(g/ksm);
@@ -47,7 +47,7 @@ for (i = 1:N)
     v(1,i+1) = v(1,i) + h*(g - ksm*v(1,i)^2);
 end
 // -------------------------------------------------------------------
-// Distance verticale parcourue : 
+// Distance verticale parcourue :
 fig1 = scf(0);
 scf(fig1);
 plot(t,u ,"+b"); // Distance empirique
@@ -58,5 +58,3 @@ fig2 = scf(1);
 scf(fig2)
 plot(t,v ,"+b"); // Vitesse empirique
 plot(t,fv, "xr"); // Vitesse théorique
-
-

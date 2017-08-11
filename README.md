@@ -101,7 +101,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 1.  Approximation de la fonction exponentielle par la méthode d'Euler
 2.  Etude d'un circuit RC
 3.  Etude de la chute libre d'un parachutiste
-4.  
+4.  Modèle proie-prédateur. Equations de Lotka-Volterra
 5.  
 #### Chapitre_4 : Calcul matriciel et calcul intégral.
 1. Méthode d'élimination de Gauss
