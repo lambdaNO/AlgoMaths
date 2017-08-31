@@ -1,9 +1,9 @@
 # Etude d'un alignement de points
-A partir des coordonnées de trois points A,B et C du plan, on souhaite déterminer si les trois points sont alignés.
+A partir des coordonnées de trois points $A$,$B$ et $C$ du plan, on souhaite déterminer si les trois points sont alignés.
 
 ### Algorithme
 #### Entrées :
-Les coordonnées des points A,B et C
+Les coordonnées des points $A$,$B$ et $C$
 #### Sorties :
 Vérifier si $\vec{AB}$ et $\vec{AC}$ sont colinéaires.
 

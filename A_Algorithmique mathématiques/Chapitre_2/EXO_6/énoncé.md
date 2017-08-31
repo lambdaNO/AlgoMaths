@@ -1,68 +1,55 @@
-# La désintégratlon radioactive
+# Recherche d'une stratégie de jeu.
 
-En physique. la désintégration des atomes d'un corps radioactif est telle que, à chaque instant, la vitesse de désintégration est proportionnelle à la quantité restante de substance radioactive.
-Soit $N(t)$, le nombre d'atomes à l'instant $t$, $\Delta t$ une durée proche de 0 et $\Delta N (t)$, la diminution du nombre d'atomes durant $\Delta t$.
+On dispose de trois urnes notées A,B et C contenant chacune 10 jetons indiscernables au toucher :
+- L'urne A contient 4 jetons noirs et 6 jetons blancs
+- L'urne B contient 7 jetons noirs et 3 jetons blancs
+- L'urne C contient 5 jetons noirs et 5 jetons blancs
 
-La loi de désintégration s'écrit :
+Le jeu consiste à extraire successivement un jeton dans chacune des trois urnes, le joueur pouvant choisir d'effectuer ces tirages soit dans l'ordre A,B puis C, soit dans l'ordre A,C puis B.
+Lorsque le jeton extrait de la deuxième urne est d'une couleur différente de celui extrait de la première, le joueur gagne un point, sinon il pert un point. Lorsque le jeton extrait de la troisième urne est d'une couleur différente de celui extrait de la deuxième, le joueur gagne un point, sinon il pert un point.
 
-$$\frac{\Delta N(t)}{\Delta t} = - \lambda \Delta N(t)$$
+La partie est gagnée si le total des points marqués est égal à 2.
 
-$\lambda$ étant la constante radioactive de ce corps, $\lambda$ est un réel positif. La présence du signe "-" indique que $N(t)$ décroit lorsque $t$ augmente.
+On note les évènements suivant :
+- $(G_{1})$ : *Le joueur a gagné en effectuant les tirages dans l'ordre ABC*
+- $(G_{2})$ : *Le joueur a gagné en effectuant les tirages*
 
-A priori, $\lambda$ pourrait dépendre du temps? Ce serait le cas si un processus de vieillissement était en cause, comme par exemple, si l'on s'intéressait au nombre de décès dans une population donnée.
-Le fait que $\lambda$ ne dépende pas du temps d'interprète comme un processus de *"mort sans vieillissement"*.
-Les physiciens modélisent la situation en considérant que le nombre d'atomes $N(t)$ est une fonction dérivable par rapport à la variable $t$. Donc pour des intervalles de temps très petits :
+On se propose d'étudier si l'un des deux ordres de tirages proposés est plus favoravle au joueur que l'autre.
 
-$$\lim\limits_{\Delta t \rightarrow 0} \frac{N(t+\Delta t)-N(t)}{\Delta t} = \lim\limits_{\Delta t \rightarrow 0} \frac{\Delta N(t)}{\Delta t} = N'(t)$$
-
-Où $N'$ est la fonction dérivée de $N$.
-
-Ainsi, $\frac{\Delta N(t)}{\Delta t} = - \lambda \Delta N(t)$ devient $N'(t)= - \lambda \Delta N(t)$
-
-A l'instant $t=0$, $N_{0} = N(0)$. Cette égalité constitue une condition initiale. Le fonction $N$ est donc solution de l'équation différentielle avec pour condition initiale :
-
-$$\[
-\left \{
-\begin{array}{c @{=} c}
-    y' & -\lambda y \\
-
-    y(0) & N_{0}
-\end{array}
-\right.
-\]
-$$
-
-L'objectif de ce travail pratique est de déterminer l’allure de la courbe representative de la fonction $N$.
-
-On souhaite modéliser la désintégration radioactive à l'aide de lancers de dés équilibrés. Pour cela, on considère $N_{0}$ dés et on effectue $T$ expériences aléatoires.
-A chaque expériences, chaque dé est lancé une fois et on applique la règle suivant :
-  - Si le dé affiche 6, on considère que l'atome se désintègre. On retire alors ce dé qui ne participera pas à l'expérience suivante.
-  - Si l'atome ne se désintègre pas, on conserve alors ce dé pour la prochaine expérience.
-
-Chaque expériences est effectuée à chaque intervalle de temps $\Delta t = 1$ (par exemple, 1 unité coresspond à 0.5 secondes).
-
-Nous allons écrire un programme prenant en paramètres saisis, les données $T$ et $N_{0}$ puis nous tracerons l'ensemble du nuance de points $M_{k}(k.\Delta t,N(k.\Delta t))$ et la courbe représentative de la fonction :
-$$f(t) = N_{0} e^{-\frac{1}{6}t}$$
-Où $\frac{1}{6}$ correspond à la probabilité d'obtenir un 6 par unité de temps.
 
 ### Algorithme
 #### Entrées :
-  - $T$ : Le nombre d'expériences
-  - $N_{0}$ : le nombre initial d'atomes (dés)
+  - $n$ : Le nombre de parties
 
 #### Sorties :
-  - $N(k)$, le nombre d'atomes restants à la fin de l'expérience n°$k$
-  - Le nuage de points $M_{k}(k.\Delta t,N(k.\Delta t))$ et la courbe représentative de $f$
-##### Remarque :
-On considère un intervalle de temps unité $\Delta t = 1$
+  - $f(G_{1})$ : La fréquence de l'évènement $G_{1}$
+  - $f(G_{2})$ : La fréquence de l'évènement $G_{2}$.
 
-#### Remarques sur l'implémentation :
-- La variable $n$ est un vecteur ligne comportant $(T+1)$ colonnes.
-- $n(1,1)$ a pour valeur $N_{0}$, le nombre initial d'atomes (de dès).
-- $n(1,k)$ a pour valeur le nombre de dès restants à la fin de la $k-1$ème expérience.
-- $n(1,T+1)$ a pour valeur le nombre de dés restant à la fin des T expériences.
+##### Méthode utilisée :
 
+- Pour effectuer la simulation du tirage dans une urne, on génère un nombre aléatoire $p$ compris entre 1 et 10 puis on teste la valeur de $p$ comme indiqué ci-après.
+    - Pour l'urne A
+      - Si p est compris entre 1 et 4, alors il s'agit d'un jeton noir
+      - Si p est compris entre 5 et 10, alors il s'agit d'un jeton blanc
+    - Pour l'urne B
+        - Si p est compris entre 1 et 7, alors il s'agit d'un jeton noir
+        - Si p est compris entre 8 et 10, alors il s'agit d'un jeton blanc
+    - Pour l'urne C
+        - Si p est compris entre 1 et 5, alors il s'agit d'un jeton noir
+        - Si p est compris entre 6 et 10, alors il s'agit d'un jeton blanc
+- Après chaque partie, oon effectue un test pour savoir si le joueur à gagné
+- Au bout de $n$ partie, on calcule les fréquences demandées.
+
+#### Remarque sur l'implémentation
+
+Chaque tirage dans une urne est simulé par la génération d'une nombre aléatoire compris entre 1 et 10.
+Par exemple, pour l'urne A, d(1,1) est ce nombre aléatoire. On procède alors de la manière suivante :
+- Si d(1,1) est compris entre 1 et 4, alors il s'agit du tirage d'un jeton noir
+- Si d(1,1) est compris entre 5 et 10, alors il s'agit du tirage d'un jeton blanc
+
+On procédera de la même manière pour les deux autres urnes.
 
 #### Conjecture :
-Le nombre d'atomes non désintégrés à l'instant *t unité de temps* a pour expression
-$$N(t) = N_{0} e^{-\frac{1}{6}t}$$
+Les probabilités convergent vers les valeurs numériques suivantes :
+$$P(G_{1}) = \frac{27}{100} \textrm{ et }P(G_{1}) = \frac{23}{100}$$
+On peut donc en déduire que l'évènement $G_{1}$ est plus favorable au joueur.

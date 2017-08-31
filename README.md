@@ -102,7 +102,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 2.  Etude d'un circuit RC
 3.  Etude de la chute libre d'un parachutiste
 4.  Modèle proie-prédateur. Equations de Lotka-Volterra
-5.  
+5.  Etude d'une équation différentielle d'ordre 2
 #### Chapitre_4 : Calcul matriciel et calcul intégral.
 1. Méthode d'élimination de Gauss
 2. Résolution d'un système U.X = B
@@ -117,4 +117,4 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 
 -----------------
 
-Note : https://perso.univ-rennes1.fr/philippe.roux/scilab/graphiques/fiche_graphiques.html#x1-60002
+**Note :** https://perso.univ-rennes1.fr/philippe.roux/scilab/graphiques/fiche_graphiques.html#x1-60002

@@ -3,7 +3,7 @@ Possedant initialement un couple de lapereaux, combien de couples obtient-on au 
 
 Il s'agit d'une application de la suite de Fibonacci (Léonardo). Ce dernier décrit dans l'un de ses ouvrages, la croissance d'une population de lapin.
 
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233,...
+$0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233,...$
 
 Le problème consiste à calculer le n-ième terme de la suite de Fibonacci correspondant au nombre de couples au n-ième mois.
 

@@ -14,4 +14,4 @@ Ensuite, on fait un barplot des résultats.
 
 #### Remarques
 Si on note $T_{k}$ l'évènement *La somme obtenue est égale à k* avec $3\leq k\leq 18$, alors s(1,k)/n correspond à la fréquence de l'évènement $T_{k}$
-Cette valeur est ensuite placées dans f(1,k-2) afin d'effectuer le tracé du barplot
+Cette valeur est ensuite placées dans $f(1,k-2)$ afin d'effectuer le tracé du barplot

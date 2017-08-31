@@ -6,7 +6,7 @@ Par exemple, 7 est diviseur de 42 car $42 = 7 \times 6 + 0$
 On dit que 7 divise 42 ou que 42 est divisible par 7 (ou encore que 42 est un multiple de 7)
 Les diviseurs peuvent être positifs ou négatifs. Les diviseurs positifs de 42 sont $\{1,2,3,6,7,17,21,442\}$
 
-On fera l'étude sur 24200, 287527 et 29312156.
+On fera l'étude sur $24200$, $287527$ et $29312156$.
 
 ### Algorithme
 #### Entrées :

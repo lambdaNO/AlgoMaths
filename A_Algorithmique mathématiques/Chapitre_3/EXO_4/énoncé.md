@@ -24,4 +24,5 @@ On utilisera une Structure répétitive pour calculer les $n$ première valeurs 
 
 #### Conjecture :
 
-On remarque que $$\frac{1}{u_{n}-1} = 1 \Leftrightarrow u_{n} = - \frac{1}{n}+1$$
+On remarque que
+$$\frac{1}{u_{n}-1} = 1 \Leftrightarrow u_{n} = - \frac{1}{n}+1$$
