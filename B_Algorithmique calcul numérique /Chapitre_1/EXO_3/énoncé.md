@@ -1,28 +1,62 @@
 # Cryptographie - Le carré de Polybe
 Il s'agit de développer un algorithme, puis un programme, permettant de crypter un mot en remplaçant chaque lettre de l'alphabet par les coordonnées (numéro de ligne; numéro de colonne) de sa position dans un carré de Polybe
-<!--
-$$
-\begin{center}
-\begin{tabular}{|l|l|l|l|l|l|}
-\hline
- & 1 & 2 & 3 & 4 & 5 \\ \hline
-1 & A & B & C & D & E \\ \hline
-2 & F & G & H & I & J \\ \hline
-3 & K & L & M & N & O \\ \hline
-4 & P & Q & R & S & T \\ \hline
-5 & U & V/W & X & Y & Z \\ \hline
-\end{tabular}
-\end{center}
-\end{center}
-$$
--->
-|  	| 1 	| 2 	| 3 	| 4 	| 5 	|
-|:-:	|:-:	|:---:	|:-:	|:-:	|:-:	|
-| 1 	| A 	| B 	| C 	| D 	| E 	|
-| 2 	| F 	| G 	| H 	| I 	| J 	|
-| 3 	| K 	| L 	| M 	| N 	| O 	|
-| 4 	| P 	| Q 	| R 	| S 	| T 	|
-| 5 	| U 	| V/W 	| X 	| Y 	| Z 	|
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-hgcj{font-weight:bold;text-align:center}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-s6z2"></th>
+    <th class="tg-hgcj">1</th>
+    <th class="tg-hgcj">2</th>
+    <th class="tg-hgcj">3</th>
+    <th class="tg-hgcj">4</th>
+    <th class="tg-hgcj">5</th>
+  </tr>
+  <tr>
+    <td class="tg-hgcj">1</td>
+    <td class="tg-s6z2">A</td>
+    <td class="tg-s6z2">B</td>
+    <td class="tg-s6z2">C</td>
+    <td class="tg-s6z2">D<br></td>
+    <td class="tg-s6z2">E</td>
+  </tr>
+  <tr>
+    <td class="tg-hgcj">2</td>
+    <td class="tg-s6z2">F</td>
+    <td class="tg-s6z2">G</td>
+    <td class="tg-s6z2">H</td>
+    <td class="tg-s6z2">I</td>
+    <td class="tg-s6z2">J</td>
+  </tr>
+  <tr>
+    <td class="tg-hgcj">3</td>
+    <td class="tg-s6z2">K</td>
+    <td class="tg-s6z2">L<br></td>
+    <td class="tg-s6z2">M</td>
+    <td class="tg-s6z2">N</td>
+    <td class="tg-s6z2">O</td>
+  </tr>
+  <tr>
+    <td class="tg-hgcj">4</td>
+    <td class="tg-s6z2">P</td>
+    <td class="tg-s6z2">Q</td>
+    <td class="tg-s6z2">R</td>
+    <td class="tg-s6z2">S</td>
+    <td class="tg-s6z2">T</td>
+  </tr>
+  <tr>
+    <td class="tg-hgcj">5</td>
+    <td class="tg-s6z2">U</td>
+    <td class="tg-s6z2">V/W</td>
+    <td class="tg-s6z2">X</td>
+    <td class="tg-s6z2">Y</td>
+    <td class="tg-s6z2">Z</td>
+  </tr>
+</table></div>
 
 ### Exemple :
 Le mot *MATH* sera crypté par la liste de nombres à deux chiffres : 33 11 45 23

@@ -85,7 +85,7 @@ Contient les exercices de prise en main du logiciel SCILAB (Mise en oeuvre des f
 
 ## B - Algorithmique calcul numérique
 #### Chapitre_1 : Algorithmique et arithmétique.
-1.  
+1.  Solveur de Sudoku
 2.  Tri par sélection et tri à bulles
 3.  Cryptographie - Le carré de Polybe *NON FONCTIONNEL*
 4.  Couples d'entiers amicaux
